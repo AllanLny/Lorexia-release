@@ -1,125 +1,34 @@
 # Lorexia — Smart note-taking & campaign assistant for TTRPG players
 
-[![CI - Quality](https://img.shields.io/badge/GitHub%20Actions-CI%20Quality-blue?logo=github)](https://github.com/AllanLny/Nodexia/actions/workflows/ci-quality.yml)
-[![CI - Build & AI Checks](https://img.shields.io/badge/GitHub%20Actions-CI%20Build%20%26%20AI%20Checks-blue?logo=github)](https://github.com/AllanLny/Nodexia/actions/workflows/ci-ai-checks.yml)
-[![CI - Security Audit](https://img.shields.io/badge/GitHub%20Actions-Security%20Audit-red?logo=github)](https://github.com/AllanLny/Nodexia/actions/workflows/ci-security.yml)
-
+[![Release](https://img.shields.io/github/v/release/AllanLny/Lorexia-release?label=latest&sort=semver&color=blue)](https://github.com/AllanLny/Lorexia-release/releases/latest)
+[![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](https://github.com/AllanLny/Lorexia/blob/main/LICENSE)
 [![Node](https://img.shields.io/badge/Node-%3E%3D20.19.0-brightgreen?logo=node.js)](https://nodejs.org/)
-[![Electron](https://img.shields.io/badge/Electron-40.x-blue?logo=electron)](https://www.electronjs.org/)
-[![Vite](https://img.shields.io/badge/Vite-7.x-yellowgreen?logo=vite)](https://vitejs.dev/)
-[![React](https://img.shields.io/badge/React-18.x-blue?logo=react)](https://reactjs.org/)
 
+Lorexia is a privacy-first Electron + React app for tabletop RPG players. It helps you take smart notes, organize your campaigns, and automatically extract key entities (NPCs, locations, quests, items, lore) from your notes. With optional AI assistance via Ollama, Lorexia makes it easy to find, enrich, and connect your game information.
 
+> **Source code**: This is the release mirror. The full source code is in the [Lorexia repository](https://github.com/AllanLny/Lorexia) (private development repository).
 
-Lorexia is a privacy-first Electron + React app designed for **all tabletop RPG players**. It helps you take smart notes, organize your campaigns, and automatically extract key entities (NPCs, locations, quests, items, lore) from your notes. With optional AI assistance, Lorexia makes it easy to find, enrich, and connect your game information.
+## Downloads
 
-The goal: make note-taking fun, fast, and collaborative—so you never lose track of your adventures, characters, or storylines again.
+Download the latest release from the [releases page](https://github.com/AllanLny/Lorexia-release/releases/latest).
 
----
+### Linux
+- **AppImage** (portable): Download the `.AppImage`, then `chmod +x lorexia-*.AppImage && ./lorexia-*.AppImage`
+- **Debian/Ubuntu** (`.deb`): `sudo apt install ./lorexia_*.deb`
+- **Red Hat/Fedora** (`.rpm`): `sudo dnf install lorexia-*.rpm`
+- **Arch Linux** (`.pacman`): `sudo pacman -U lorexia-*.pkg.tar.zst`
 
-## Quick links
+### Windows
+- **Installer** (`.exe`): Download and run the installer.
+- **Portable** (`.zip`): Extract and run `Lorexia Setup.exe`.
 
-- Project: Lorexia
-- Language: TypeScript + React
-- Desktop: Electron
-- Storage: Local JSON (optionally SQLite later)
+### macOS
+- **Disk image** (`.dmg`): Download, open, and drag Lorexia to your Applications folder.
 
----
+## Changelog
 
-## Getting started (developer)
-
-Requirements:
-- Node.js >= 20.19.0 (use nvm or installer)
-- npm (bundled with Node)
-
-Install dependencies:
-
-```bash
-npm ci
-```
-
-Run in development (web only):
-
-```bash
-npm run dev
-```
-
-Run Electron in development (hot-reload helper):
-
-```bash
-npm run electron:dev
-# or
-npm run electron:dev:hot
-```
-
-Build production:
-
-```bash
-npm run build
-```
-
-Pack / run packaged electron app:
-
-```bash
-npm run electron:pack
-```
-
----
-
-## Key scripts
-
-- `npm run dev` — Vite dev server
-- `npm run electron:dev` — Vite + Electron (development)
-- `npm run build` — TypeScript compile + Vite build
-- `npm run format-json` — Normalize campaign JSON files (data/campaigns)
-- `npm run ai-checks` — Local AI content safety heuristics (pre-push hook)
-- `npm run ai-fix-quick` — Apply quick auto-fixes (TODO normalization, trim, tabs->spaces)
-
----
-
-## Project structure (short)
-
-```
-src/
-  features/          # app features: campaign, chatbot, knowledge, note-taking
-  storage/           # file store and schema.ts (entities types)
-electron/            # main Electron process + ai-engine helpers
-data/campaigns/      # local campaign JSON files (gitignored by default)
-scripts/             # tooling: ai_checks, format_json, quick-fixes
-.github/workflows/   # CI workflows
-```
-
----
-
-## CI and quality gates
-
-Workflows in `.github/workflows/` run on push/PR and include:
-
-- `ci-quality.yml` — install, typecheck (`tsc --noEmit`), build, run `format-json`, and `ai-checks`.
-- `ci-ai-checks.yml` — build + run `ai-checks` (legacy / alternate job).
-- `ci-security.yml` — `npm audit --audit-level=high` (fails if high vulnerabilities are present).
-
-If your CI requires Node 20, update your local environment or CI runners accordingly.
-
----
-
-## Analyzer & Safety
-
-- The analyzer (`electron/ai-engine/*` and `src/features/knowledge/analyzer.ts`) is hybrid: lightweight local heuristics by default and optional LLM-based refinement if configured (OpenAI / Ollama / LM Studio).
-- `scripts/ai_checks.js` provides a heuristic pre-push safety scan to detect placeholders, off-topic keywords, and repeated sentences. It is tuned to ignore `data/` and common noise.
-
----
-
-## Contributing
-
-- Please open issues or PRs against the repository.
-- Follow the code style already present (TypeScript strict types, interfaces for entities).
-- For quick formatting: run `npm run ai-fix-quick` then `npm run format-json` for campaign data.
-
-When opening a PR, CI will run typecheck and ai-checks. Fix warnings before requesting review.
-
----
+See [CHANGELOG.md](CHANGELOG.md) or browse the [release notes](https://github.com/AllanLny/Lorexia-release/releases).
 
 ## License
 
-MIT — see `LICENSE` if present.
+[MIT](https://github.com/AllanLny/Lorexia/blob/main/LICENSE)
