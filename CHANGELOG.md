@@ -1,3 +1,12 @@
+## [2.0.2](https://github.com/AllanLny/Lorexia/compare/v2.0.1...v2.0.2) (2026-08-17)
+
+
+### Bug Fixes
+
+* add auto 5e sync ([46371b2](https://github.com/AllanLny/Lorexia/commit/46371b2fea383a8faca08bed23a1cfb8c1d26438))
+* update autoupdate ([4236f9e](https://github.com/AllanLny/Lorexia/commit/4236f9e2308f519a9489213312dc05de46fc2bb4))
+* update autoupdate ([51c6e98](https://github.com/AllanLny/Lorexia/commit/51c6e9825d9d1dd19cf11383d45dd81f53138242))
+
 # [1.16.0](https://github.com/AllanLny/Lorexia/compare/v1.15.7...v1.16.0) (2026-08-16)
 
 
