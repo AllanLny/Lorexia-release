@@ -1,3 +1,11 @@
+## [2.0.3](https://github.com/AllanLny/Lorexia/compare/v2.0.2...v2.0.3) (2026-08-17)
+
+
+### Bug Fixes
+
+* fixed auto release on new tag ([3c0e5c2](https://github.com/AllanLny/Lorexia/commit/3c0e5c25a819c2f832331dde06804d73a50a7196))
+* fixed auto release on new tag ([93d2e59](https://github.com/AllanLny/Lorexia/commit/93d2e59a591022817a85150fb3331603d123f2ef))
+
 ## [2.0.2](https://github.com/AllanLny/Lorexia/compare/v2.0.1...v2.0.2) (2026-08-17)
 
 
