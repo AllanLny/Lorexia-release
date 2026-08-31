@@ -1,3 +1,72 @@
+## [2.1.8](https://github.com/AllanLny/Lorexia/compare/v2.1.7...v2.1.8) (2026-08-31)
+
+
+### Bug Fixes
+
+* ci ([e342818](https://github.com/AllanLny/Lorexia/commit/e342818d3f72b20a94cf12232685d5c46cc5ea42))
+
+## [2.1.7](https://github.com/AllanLny/Lorexia/compare/v2.1.6...v2.1.7) (2026-08-30)
+
+
+### Bug Fixes
+
+* cicd ([3c56bcb](https://github.com/AllanLny/Lorexia/commit/3c56bcb8d3407758a9f864eca9ebe56370c3c768))
+* cicd ([2703b80](https://github.com/AllanLny/Lorexia/commit/2703b8022b7a48ed3ee3d27542b7e3895670a4ef))
+
+## [2.1.6](https://github.com/AllanLny/Lorexia/compare/v2.1.5...v2.1.6) (2026-08-30)
+
+
+### Bug Fixes
+
+* cicd ([db99250](https://github.com/AllanLny/Lorexia/commit/db9925076df3c99661cc11b15b927fd878539293))
+
+## [2.1.5](https://github.com/AllanLny/Lorexia/compare/v2.1.4...v2.1.5) (2026-08-30)
+
+
+### Bug Fixes
+
+* cicd ([a350e32](https://github.com/AllanLny/Lorexia/commit/a350e32e12b3b1f8bea54684d2d36a25c9daa843))
+
+## [2.1.4](https://github.com/AllanLny/Lorexia/compare/v2.1.3...v2.1.4) (2026-08-30)
+
+
+### Bug Fixes
+
+* cicd ([0cce23d](https://github.com/AllanLny/Lorexia/commit/0cce23d4cfea2ee4d625e3638533aad42042e7bf))
+
+## [2.1.3](https://github.com/AllanLny/Lorexia/compare/v2.1.2...v2.1.3) (2026-08-30)
+
+
+### Bug Fixes
+
+* cicd ([383e9d9](https://github.com/AllanLny/Lorexia/commit/383e9d98835425360413c08bb1d2933d7f764757))
+
+## [2.1.2](https://github.com/AllanLny/Lorexia/compare/v2.1.1...v2.1.2) (2026-08-30)
+
+
+### Bug Fixes
+
+* cicd ([3c775a0](https://github.com/AllanLny/Lorexia/commit/3c775a0ff33b3f1c8408d91f27929f3ad3868972))
+
+## [2.1.1](https://github.com/AllanLny/Lorexia/compare/v2.1.0...v2.1.1) (2026-08-30)
+
+
+### Bug Fixes
+
+* cicd ([35acb44](https://github.com/AllanLny/Lorexia/commit/35acb44743233086b186061cefd0a2116d309001))
+
+# [2.1.0](https://github.com/AllanLny/Lorexia/compare/v2.0.4...v2.1.0) (2026-08-30)
+
+
+### Bug Fixes
+
+* fix competence desc issues ([8f6fe5f](https://github.com/AllanLny/Lorexia/commit/8f6fe5fce0c38281c321732a9a44eaa7769d298f))
+
+
+### Features
+
+* add ios android feature ([4280638](https://github.com/AllanLny/Lorexia/commit/4280638e9dfe48286db6322ec1886726e580498a))
+
 ## [2.0.3](https://github.com/AllanLny/Lorexia/compare/v2.0.2...v2.0.3) (2026-08-17)
 
 
