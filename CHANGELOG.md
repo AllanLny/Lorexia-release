@@ -1,3 +1,18 @@
+## [2.1.10](https://github.com/AllanLny/Lorexia/compare/v2.1.9...v2.1.10) (2026-09-06)
+
+
+### Bug Fixes
+
+* android APK logo and IP blocking ([c70522b](https://github.com/AllanLny/Lorexia/commit/c70522bd128e3c537ebf789f8d7fcf70dc03f511))
+
+## [2.1.9](https://github.com/AllanLny/Lorexia/compare/v2.1.8...v2.1.9) (2026-08-31)
+
+
+### Bug Fixes
+
+* ci ([0faa9ee](https://github.com/AllanLny/Lorexia/commit/0faa9ee9889ea8652554b57ecb4ac2d65783abe5))
+* ci ([77e26b7](https://github.com/AllanLny/Lorexia/commit/77e26b762b5b5838ade64bdd25cbbe41a0fb7c2a))
+
 ## [2.1.8](https://github.com/AllanLny/Lorexia/compare/v2.1.7...v2.1.8) (2026-08-31)
 
 
