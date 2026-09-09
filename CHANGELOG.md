@@ -1,3 +1,10 @@
+## [2.1.12](https://github.com/AllanLny/Lorexia/compare/v2.1.11...v2.1.12) (2026-09-06)
+
+
+### Bug Fixes
+
+* cicd ([f6f6d2e](https://github.com/AllanLny/Lorexia/commit/f6f6d2e7d2f0446e31ab588b09378f0a98b185e6))
+
 ## [2.1.10](https://github.com/AllanLny/Lorexia/compare/v2.1.9...v2.1.10) (2026-09-06)
 
 
