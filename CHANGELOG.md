@@ -1,3 +1,28 @@
+# [2.2.0](https://github.com/AllanLny/Lorexia/compare/v2.1.12...v2.2.0) (2026-09-09)
+
+
+### Bug Fixes
+
+* android ci ([3712f82](https://github.com/AllanLny/Lorexia/commit/3712f82ed98da666e4ade7004a1e4d1e5f60d945))
+* android ci ([fced43d](https://github.com/AllanLny/Lorexia/commit/fced43dbfb002b685f294e32fbce4599d7a08d55))
+* android ci ([d7f36b4](https://github.com/AllanLny/Lorexia/commit/d7f36b4db7dc7d9ad6eb0083092b61ce70befb06))
+* android ci ([5437dcf](https://github.com/AllanLny/Lorexia/commit/5437dcfa308b648b30e92390c912c2322846e658))
+* android ci ([8a02333](https://github.com/AllanLny/Lorexia/commit/8a02333c980c81df92f1518c3d19da86bb57f7d9))
+* android ci ([4da6867](https://github.com/AllanLny/Lorexia/commit/4da6867c1cb4f41fc5a12eb048f86c611f1dddf3))
+* android test on cicd ([efee101](https://github.com/AllanLny/Lorexia/commit/efee101f89cf27c4fcce4a5586bb07db602bc75d))
+* android test on cicd ([1596688](https://github.com/AllanLny/Lorexia/commit/1596688408b4ea7db9c9428a9f1d73087cff7e8e))
+* move checkout out of composite action (local actions need repo cloned first) ([094e709](https://github.com/AllanLny/Lorexia/commit/094e709a2002f7baf8372d345dcb8021dc9f3671))
+* remove invalid shell key under uses: step (breaks CI workflow parsing) ([c8b1a1b](https://github.com/AllanLny/Lorexia/commit/c8b1a1bc6d51ef7bb79aea177cd42b003ba719a8))
+* remove needs:build-and-typecheck from test-android so it runs independently ([bbbfceb](https://github.com/AllanLny/Lorexia/commit/bbbfcebff0c437fb194d4f366f945406e9f12584))
+
+
+### Features
+
+* add android test espresso ([c657fb5](https://github.com/AllanLny/Lorexia/commit/c657fb5b240c7dec124eb6b0f4c3b5769e7222db))
+* add android test espresso ([270f2fc](https://github.com/AllanLny/Lorexia/commit/270f2fc2ee6df0c9315604f6a3df027bbd5838d9))
+* implement updater system + Capacitor storage improvements ([329ef76](https://github.com/AllanLny/Lorexia/commit/329ef76f47e01cda2df38c52130595e58d8b2297))
+* mobile responsive UI + AI graceful degradation on Capacitor ([b653234](https://github.com/AllanLny/Lorexia/commit/b653234c7b6ce24a97d9f5be3eb9fc0249717028))
+
 ## [2.1.12](https://github.com/AllanLny/Lorexia/compare/v2.1.11...v2.1.12) (2026-09-06)
 
 
