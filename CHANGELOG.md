@@ -1,3 +1,16 @@
+# [2.3.0](https://github.com/AllanLny/Lorexia/compare/v2.2.0...v2.3.0) (2026-09-12)
+
+
+### Bug Fixes
+
+* add electron-rebuild postinstall to fix native module ABI mismatch ([c52b121](https://github.com/AllanLny/Lorexia/commit/c52b121c1f20f99130f14e8cb37f2bde436fe563))
+* ia auto fix ([b8f2c7e](https://github.com/AllanLny/Lorexia/commit/b8f2c7eda2cd18a555ef996d025f4cbcdde6b2dc))
+
+
+### Features
+
+* add modal update ([241cfb0](https://github.com/AllanLny/Lorexia/commit/241cfb0784101c0a2628ae1093ba1933b5f4ca0d))
+
 # [2.2.0](https://github.com/AllanLny/Lorexia/compare/v2.1.12...v2.2.0) (2026-09-09)
 
 
