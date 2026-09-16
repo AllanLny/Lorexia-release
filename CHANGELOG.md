@@ -1,3 +1,10 @@
+# [2.4.0](https://github.com/AllanLny/Lorexia/compare/v2.3.1...v2.4.0) (2026-09-13)
+
+
+### Features
+
+* add login ([ffb7335](https://github.com/AllanLny/Lorexia/commit/ffb7335bcc6cff2cb283b6ca58e8ba414b6a4565))
+
 # [2.3.0](https://github.com/AllanLny/Lorexia/compare/v2.2.0...v2.3.0) (2026-09-12)
 
 
