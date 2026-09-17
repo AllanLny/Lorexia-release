@@ -1,3 +1,10 @@
+# [2.5.0](https://github.com/AllanLny/Lorexia/compare/v2.4.0...v2.5.0) (2026-09-16)
+
+
+### Features
+
+* add all translation missing ([9205393](https://github.com/AllanLny/Lorexia/commit/920539327bd46f8b48787b7d84703d20d786a3d6))
+
 # [2.4.0](https://github.com/AllanLny/Lorexia/compare/v2.3.1...v2.4.0) (2026-09-13)
 
 
